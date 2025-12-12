@@ -6,7 +6,7 @@ title: Liliana Nasrallah
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/profilepic.jpeg" | relative_url }}){: class="profile-image"}
 
  
 My name is Liliana Nasrallah, and I am a senior Mechanical Engineering major at Cornell University. blah blah blah

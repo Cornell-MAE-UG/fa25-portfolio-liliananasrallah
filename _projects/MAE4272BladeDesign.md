@@ -3,7 +3,7 @@ layout: project
 title: MAE 4272 Turbine Blade Design
 description: Design Project
 technologies: MATLAB, Fusion360, excel
-image: /assets/images/bladetwist.jpg
+image: /assets/images/bladetwist.jpeg
 --- 
 
 ## Overview
@@ -17,7 +17,7 @@ For MAE 4272: Fluids and Heat Transfer Laboratory, we were asked to design a sma
 - Torque generated must stay below torque brake maximum of 3.5 Ncm.
 - Maximum bending stress must remain below flexural stress of material of 44 MPa.
 
-![photo of blade in wind tunnel]({{ "/assets/images/windtunnel.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![photo of blade in wind tunnel]({{ "/assets/images/windtunnel.jpeg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
 ![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}

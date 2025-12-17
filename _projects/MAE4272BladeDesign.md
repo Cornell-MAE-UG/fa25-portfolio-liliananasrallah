@@ -29,6 +29,23 @@ The first step in our design process was selecting an airfoil cross-section. We 
   <figcaption><strong>Figure 1.</strong> CAD model of blade design.</figcaption>
 </figure>
 
+.figure {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;   /* adjust size here */
+  width: 100%;
+}
+
+.figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
 
 ## Testing Summary
 

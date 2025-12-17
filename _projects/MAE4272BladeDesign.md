@@ -6,7 +6,7 @@ technologies: MATLAB, Fusion360, excel
 image: /assets/images/bladetwist.jpeg
 --- 
 
-## Overview
+#### Overview
 
 For MAE 4272: Fluids and Heat Transfer Laboratory, we were asked to design a small scale wind turbine blade that would maximize power output while retaining structural stability. Because of the small scale, our turbine blades were designed to operate in low Reynolds number regimes. The design also had to adhere to several dimensional and operational constraints as listed below. 
 - Blade length must be below 6 inches not including attachment piece.

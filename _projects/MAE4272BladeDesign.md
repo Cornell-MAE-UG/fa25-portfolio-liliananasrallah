@@ -3,17 +3,21 @@ layout: project
 title: MAE 4272 Turbine Blade Design
 description: Design Project
 technologies: MATLAB, Fusion360, excel
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/bladetwist.jpg
 --- 
 
 ## Overview
 
+For MAE 4272: Fluids and Heat Transfer Laboratory, we were asked to design a small scale wind turbine blade that would maximize power output while retaining structural stability. Because of the small scale, our turbine blades were designed to operate in low Reynolds number regimes. The design also had to adhere to several dimensional and operational constraints as listed below. 
+- Blade length must be below 6 inches not including attachment piece.
+- Blade must be able to integrate with hub attachment piece.
+- Axial clearance must be less than 2 inches to avoid interferrence with nacelle.
+- Turbine must remain under 3500 RPM during testing.
+- Wind tunnel must be running below 15 Hz which corresponds to a wind speed of 9.8 m/s.
+- Torque generated must stay below torque brake maximum of 3.5 Ncm.
+- Maximum bending stress must remain below flexural stress of material of 44 MPa.
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
-
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![photo of blade in wind tunnel]({{ "/assets/images/windtunnel.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
 ![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}

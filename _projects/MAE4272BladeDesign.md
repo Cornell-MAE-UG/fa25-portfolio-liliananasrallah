@@ -17,15 +17,17 @@ For MAE 4272: Fluids and Heat Transfer Laboratory, we were asked to design a sma
 - Torque generated must stay below torque brake maximum of 3.5 Ncm.
 - Maximum bending stress must remain below flexural stress of material of 44 MPa.
 
-![photo of blade in wind tunnel]({{ "/assets/images/windtunnel.jpeg" | relative_url }}){: .inline-image-r style="width: 200px"}
-
 
 ## Design Process
 
 The first step in our design process was selecting an airfoil cross-section. We researched several different airfoil types on airfoiltools.com, focusing on airfoils that performed well at low Reynolds numbers (Re = 100,000), and made a table listing key characteristics. We decided to use the SG6043 airfoil because it has high lift at the ideal angle of attack, it is not too thin so it will be structurally stable, and it does not have strange geometry that might provide problems during printing. Then, we decided on a blade length of 6 inches because longer blades generate more power. We designed our blade to operate best at a wind speed of 5 m/s because that was the most probable wind speed according to the provided Weibull distribution. We chose our operating RPM to be 1880, which corresponds to a tip speed ratio of 6 at the rated wind speed. Next, we used a set of equations for ideal rotor without wake rotation from the textbook *Wind Energy Explained* to find our chord and pitch distributions. We also experimented with using a linear chord distribution because the larger chord lengths provided more structural stability. We evaluated the power generation and factor of safety of these different iterations in a MATLAB script that implemented blade element momentum theory and modeled the blades as cantilevered beams. In the end, we decided to used an chord distribution that was averaged between the calculated and linear distributions because this resulted in a sufficiently large factor of safety while also optimizing power generation. A picture of the CAD model of our final blade design is shown below.
 
-![photo of final blade]({{ "/assets/images/bladechord.jpeg" | relative_url }})
-** Figure 1. ** CAD model of blade design. 
+<figure class="figure">
+  <img src="{{ '/assets/images/bladechord.jpeg' | relative_url }}"
+       alt="photo of final blade"
+       style="max-width: 500px; width: 100%;">
+  <figcaption><strong>Figure 1.</strong> CAD model of blade design.</figcaption>
+</figure>
 
 
 ## Testing Summary

@@ -2,7 +2,7 @@
 layout: project
 title: MAE 4300 Boeing 737 MAX Analysis
 description: Ethical Analysis
-technologies: Excel
+technologies: N/A
 image: /assets/images/737MAX.png
 ---
 

@@ -10,7 +10,7 @@ The objective of this competition was to design a robot that would collect more 
 
 <figure align="center">
   <img src="{{ '/assets/images/robot.jpeg' | relative_url }}"
-       alt="photo of final blade"
+       alt="photo of robot"
        width="500">
   <figcaption><strong>Figure 1.</strong> Our final robot design.</figcaption>
 </figure>

@@ -3,7 +3,7 @@ layout: project
 title: MAE 3780 Robot Competition
 description: Design Project
 technologies: Arduino, Fusion360, C++
-image: /assets/images/robot.jpeg
+image: /assets/images/robotCAD.jpeg
 --- 
 ## Cube Craze
 The objective of this competition was to design a robot that would collect more 1 inch blocks than the other robots. The arena was a 4 by 3.5 foot yellow and blue board with a 3 inch black border and 20 cubes scattered in the middle third. The two competing robots start on opposite sides of the board, and whoever has the most blocks within the perimeter of their robot at the end of 60 seconds wins. We had a budget of $40 and the robot had to fit within a 8 by 8 inch box. 

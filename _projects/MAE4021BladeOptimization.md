@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 4021 Blade Optimization
+title: Blade Optimization - MAE 4021 Wind Power
 description: Senior Design Project
 technologies: MATLAB, Ansys Fluent, Excel
 image: /assets/images/ansys.png

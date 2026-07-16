@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 3780 Robot Competition
+title: Robot Competition - MAE 3780 Mechatronics
 description: Design Project
 technologies: Arduino, Fusion360, C++
 image: /assets/images/robotCAD.jpeg

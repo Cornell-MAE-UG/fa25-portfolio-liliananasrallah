@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 4272 Turbine Blade Design
+title: Turbine Blade Design - MAE 4272 Fluids and Heat Transfer Lab
 description: Design Project
 technologies: MATLAB, Fusion360, excel
 image: /assets/images/bladetwist.jpeg
